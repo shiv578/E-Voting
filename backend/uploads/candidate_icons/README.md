@@ -1,0 +1,1 @@
+here the user candidate  symbol/image will come
