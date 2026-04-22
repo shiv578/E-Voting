@@ -1,4 +1,4 @@
-  const mongoose = require('mongoose');
+   const mongoose = require('mongoose');
  
 const candidateSchema = new mongoose.Schema({
   election: { type: mongoose.Schema.Types.ObjectId, ref: 'Election', required: true },
