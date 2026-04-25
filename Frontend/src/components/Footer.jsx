@@ -1,5 +1,5 @@
 
-import React from "react";
+ import React from "react";
 import { Link } from "react-router-dom";
 import { Facebook, Twitter, Instagram, Linkedin, Globe, Mail, MapPin } from "lucide-react";
 
