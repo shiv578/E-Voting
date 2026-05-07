@@ -1,4 +1,4 @@
-// run from backend folder: node scripts/makeAdmin.js <email>
+ // run from backend folder: node scripts/makeAdmin.js <email>
 const mongoose = require('mongoose');
 require('dotenv').config();
 const User = require('../models/User');
