@@ -1,3 +1,4 @@
+
 // src/utils/translations.js
 
 export const translations = {
