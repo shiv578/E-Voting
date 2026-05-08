@@ -1,5 +1,5 @@
 
- // src/utils/translations.js
+  // src/utils/translations.js
 
 export const translations = {
   en: {
