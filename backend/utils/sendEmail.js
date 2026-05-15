@@ -1,4 +1,4 @@
- // backend/utils/sendEmail.js
+  // backend/utils/sendEmail.js
 const sgMail = require('@sendgrid/mail');
 
 if (process.env.SENDGRID_API_KEY) {
