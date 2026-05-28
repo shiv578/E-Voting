@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import { translations, languages } from '../utils/translations';
 
 const LanguageContext = createContext();  
-
+  
  export function LanguageProvider({ children }) {
   // 1. Get from localStorage or default to 'en'
   const [lang, setLangState] = useState(() => {
