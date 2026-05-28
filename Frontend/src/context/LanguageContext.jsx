@@ -3,7 +3,7 @@ import { translations, languages } from '../utils/translations';
 
 const LanguageContext = createContext();  
   
- export function LanguageProvider({ children }) {
+ export function LanguageProvider({ children }) {  
   // 1. Get from localStorage or default to 'en'
   const [lang, setLangState] = useState(() => {
     return localStorage.getItem('app_lang') || 'en';
