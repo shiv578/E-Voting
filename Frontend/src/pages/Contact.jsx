@@ -26,7 +26,7 @@ export default function Contact() {
     message: "",
   });
 
-  const [submitState, setSubmitState] = useState('idle'); // 'idle' | 'processing' | 'success'
+   const [submitState, setSubmitState] = useState('idle'); // 'idle' | 'processing' | 'success'
   const [msg, setMsg] = useState(null);
 
   function handleChange(e) {
