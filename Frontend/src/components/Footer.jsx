@@ -2,7 +2,7 @@
           import React from "react";
    import { Link } from "react-router-dom";
  import { Facebook, Twitter, Instagram, Linkedin, Globe, Mail, MapPin } from "lucide-react";
-
+        
 export default function Footer() {
   return (
     <footer className="bg-[#1a1a1a] dark:bg-black text-white mt-auto border-t-4 border-[#FF9933] font-sans">
