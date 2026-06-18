@@ -7,7 +7,7 @@ async function createTransporter() {
     port: +process.env.SMTP_PORT || 587,
     secure: false,
     auth: {
-      user: process.env.SMTP_USER,    // must be "apikey"
+      user: process.env.SMTP_USER,     // must be "apikey"
       pass: process.env.SMTP_PASS     // your SendGrid API key
     }
   });
