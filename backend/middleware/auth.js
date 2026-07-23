@@ -2,7 +2,8 @@
  // backend/middleware/auth.js  
 const jwt = require('jsonwebtoken');
  const User = require('../models/User');  
- 
+
+
 module.exports = async function (req, res, next) {  
   const authHeader = req.headers.authorization || '';
   const token = authHeader.startsWith('Bearer ') ? authHeader.split(' ')[1] : null;
