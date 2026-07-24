@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer"; 
  
 export default function Layout({ children, hideNavOnAuth = false }) { 
-  const [theme, setTheme] = useState(() => {
+  const [theme, setTheme] = useState(() => { 
     try {
       return localStorage.getItem("theme") || "light";
     } catch {
