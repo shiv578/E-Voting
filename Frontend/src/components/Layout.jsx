@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar"; 
 import Footer from "./Footer"; 
-
+ 
 export default function Layout({ children, hideNavOnAuth = false }) {
   const [theme, setTheme] = useState(() => {
     try {
