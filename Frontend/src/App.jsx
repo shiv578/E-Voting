@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useLocation, Link } f
 import {  
   Moon, 
   Sun, 
-  LogOut, 
+  LogOut,  
   LayoutDashboard,   
   HelpCircle, 
   UserCircle,  
