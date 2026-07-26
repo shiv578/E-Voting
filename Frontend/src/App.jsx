@@ -9,7 +9,7 @@ import {
   UserCircle,  
   Menu,  
   X,
-  Globe,
+  Globe, 
   ChevronDown,
   Phone
 } from 'lucide-react';
