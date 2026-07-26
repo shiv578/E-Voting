@@ -7,7 +7,7 @@ import {
   LayoutDashboard,  
   HelpCircle, 
   UserCircle,  
-  Menu, 
+  Menu,  
   X,
   Globe,
   ChevronDown,
