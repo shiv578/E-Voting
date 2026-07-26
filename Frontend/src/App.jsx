@@ -6,7 +6,7 @@ import {
   LogOut, 
   LayoutDashboard, 
   HelpCircle, 
-  UserCircle, 
+  UserCircle,  
   Menu, 
   X,
   Globe,
