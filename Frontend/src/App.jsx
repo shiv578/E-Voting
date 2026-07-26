@@ -10,7 +10,7 @@ import {
   Menu,  
   X,
   Globe, 
-  ChevronDown,
+  ChevronDown, 
   Phone
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
