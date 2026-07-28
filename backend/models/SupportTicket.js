@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const SupportTicketSchema = new mongoose.Schema(
   {
-    name: { type: String, required: true },
+    name: { type: String, required: true }, 
     email: { type: String, required: true },
     category: { type: String, default: 'other' },
     subject: { type: String, required: true },
