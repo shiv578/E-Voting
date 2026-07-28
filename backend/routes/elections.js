@@ -2,6 +2,7 @@
 const express = require('express');
 const Vote = require('../models/Vote');
 const router = express.Router();
+
 const Election = require('../models/Election');
 const Candidate = require('../models/Candidate');
 const auth = require('../middleware/auth');
