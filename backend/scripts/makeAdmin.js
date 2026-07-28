@@ -5,6 +5,7 @@ const User = require('../models/User');
 
 async function run() {
   const email = process.argv[2];
+       
   if (!email) return console.log('Usage: node makeAdmin.js user@example.com');
   await mongoose.connect(process.env.MONGODB_URI);
   const u = await User.findOneAndUpdate({ email }, { role: 'admin' }, { new: true });
