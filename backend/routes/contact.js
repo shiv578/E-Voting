@@ -10,6 +10,7 @@ const AuditLog = require('../models/AuditLog'); // if you want to log
 router.post('/', async (req, res) => {
   try {
     const { name, email, subject, message } = req.body;
+         
 
     // basic validation
     if (!name || !email || !message) {
