@@ -9,6 +9,7 @@ const sendEmail = require('../utils/sendEmail'); // ✅ uses SendGrid (same as O
 
 // --- helper: admin check ---
 function ensureAdmin(req, res, next) {
+  
   if (!req.user || req.user.role !== 'admin') {
     return res.status(403).json({ msg: 'Admin only' });
   }
