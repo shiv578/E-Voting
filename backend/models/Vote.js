@@ -6,7 +6,7 @@ const voteSchema = new mongoose.Schema({
   voter: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   createdAt: { type: Date, default: Date.now },
 });
-
+ 
 // unique: voter can vote only once per election
 voteSchema.index({ election: 1, voter: 1 }, { unique: true });
 
