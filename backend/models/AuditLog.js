@@ -5,6 +5,6 @@ const auditSchema = new mongoose.Schema({
   action: { type: String, required: true }, 
   details: { type: Object, default: {} }, 
   timestamp: { type: Date, default: Date.now }
-});
+}); 
 
 module.exports = mongoose.models.AuditLog || mongoose.model('AuditLog', auditSchema);
