@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const userSchema = new mongoose.Schema({
   resetOtpHash: String,
   resetOtpExpires: Date,
-  resetOtpAttempts: { type: Number, default: 0 },
+  resetOtpAttempts: { type: Number, default: 0 }, 
   resetOtp: { type: String },
 resetOtpExpires: { type: Date },
 resetOtpAttempts: { type: Number, default: 0 },
