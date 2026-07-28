@@ -5,6 +5,7 @@ require("dotenv").config();
 
 async function main(){
   await mongoose.connect(process.env.MONGO_URI || "mongodb://127.0.0.1:27017/e-voting");
+  
   const passwordHash = await bcrypt.hash("adminpass123", 10);
   const admin = new User({
     name: "AdminUser",
