@@ -8,6 +8,7 @@ const mongoose = require('mongoose');
 
 // ✅ 2. IMPORT APP AFTER LOADING VARIABLES
 // Now when auth.js loads inside app, it can see process.env.MONGODB_URI
+
 const app = require('./app');
 
 const PORT = process.env.PORT || 5000;
