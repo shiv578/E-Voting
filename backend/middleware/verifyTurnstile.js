@@ -9,7 +9,7 @@ module.exports = async function verifyTurnstile(req, res, next) {
     const secret = process.env.TURNSTILE_SECRET;
     if (!secret) {
       console.warn('TURNSTILE_SECRET not set, bypassing verification (dev)');
-      return next();
+      return next(); 
     }
 
     const params = new URLSearchParams();
