@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 
-const AuditLog = require('../models/AuditLog');
+const AuditLog = require('../models/AuditLog'); 
 const User = require('../models/User');      // 👈 needed for /users
 const auth = require('../middleware/auth');
 
