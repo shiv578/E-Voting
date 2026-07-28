@@ -14,6 +14,7 @@ router.get('/votes/my', auth, async (req, res) => {
   try {
     const voterId = req.user.id;
 
+    
     const votes = await Vote.find({ voter: voterId })
       .populate('election', 'title startTime endTime')
       .populate('candidate', 'name party')
