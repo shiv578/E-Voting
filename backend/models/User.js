@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 
 
 const userSchema = new mongoose.Schema({
+  
   resetOtpHash: String,
   resetOtpExpires: Date,
   resetOtpAttempts: { type: Number, default: 0 }, 
