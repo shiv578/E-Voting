@@ -7,6 +7,7 @@ export default function Layout({ children, hideNavOnAuth = false }) {
 
  
  
+ 
   const [theme, setTheme] = useState(() => { 
     try {
       return localStorage.getItem("theme") || "light";
