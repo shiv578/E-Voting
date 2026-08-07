@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import api from "../api"; 
 import { motion } from 'framer-motion';
 import { 
-  ArrowLeft, Mail, Phone, MapPin, Clock, Send, 
+  ArrowLeft, Mail, Phone, MapPin, Clock, Send,  
 
       
        MessageSquare, CheckCircle, AlertCircle, Loader2 
