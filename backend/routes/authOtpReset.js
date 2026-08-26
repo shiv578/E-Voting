@@ -10,9 +10,6 @@ const verifyTurnstile = require("../middleware/verifyTurnstile");
 
 
 
-
-
-
 // helper to generate numeric 6-digit OTP
 function generateOtp() {
   return String(Math.floor(100000 + Math.random() * 900000)); 
