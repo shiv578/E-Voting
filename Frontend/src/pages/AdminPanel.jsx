@@ -10,8 +10,6 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 
 
-
-
 export default function AdminPanel() {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
